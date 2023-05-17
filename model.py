@@ -1,3 +1,9 @@
+"""
+INFO:
+This is an old py-file about to be deleted.
+Find all py-files in linguistid-dna/ml_dna
+"""
+
 # import necessary libraries
 import librosa
 import numpy as np
@@ -55,7 +61,7 @@ print(aud_ser_list[:10])
 print(df_mod.iloc[:10])
 
 #for file in audio_path + df_mod["path"]:
-    
+
 
 
 
@@ -79,7 +85,7 @@ def create_percussive(aud_ser):
     print('split into harmonic and percussive source done')
     return lst_percussive
 
-    
+
 
 # compute MFCC features for the audio files and store them in a numpy array
 def create_mfcc(aud_ser):
